@@ -3,8 +3,8 @@ Contributors: niraj.shah
 Donate link:
 Tags: status, playstation, psn
 Requires at least: 2.7
-Tested up to: 3.3
-Stable tag: 0.2
+Tested up to: 4.0
+Stable tag: 0.3
 
 Widget that shows the status of the PlayStation Network on your blog for your chosen region.
 
@@ -31,3 +31,7 @@ You can see a examples of the widget on my blog:
 v0.2:
 
 * Country selection added to the widget. You can now set the Widget to display the PSN status for one of 26 countries.
+
+v0.3:
+
+* Bug fixes

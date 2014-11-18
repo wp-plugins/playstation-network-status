@@ -5,7 +5,7 @@ Plugin Name: PSN Status Widget
 Plugin URI: http://www.webniraj.com/wordpress/
 Description: Displays the status of the PlayStation Network on your blog in real time. This plugin is a widget you can place in the sidebar.
 Author: Niraj Shah
-Version: 0.2
+Version: 0.3
 Author URI: http://www.webniraj.com/
 */
 
@@ -23,7 +23,7 @@ function widget_psnstatus_register() {
 					. file_get_contents( "http://psnstatus.xtremeps3.com/index.php?region=" . $options['region'] )
 					. '</div>';
 				//	please do not remove!
-				echo '<div class="psn-status-powered-by">Powered by <a href="http://www.xtremeps3.com/" target="_blank">XTREME PS3</a></div>';
+				echo '<div class="psn-status-powered-by">Powered by <a href="http://www.xtremeps3.com/?ref=psn-status-plugin" target="_blank">XTREME PS3</a></div>';
 				echo $after_widget;
 			?>
 	<?php
