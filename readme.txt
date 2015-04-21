@@ -3,7 +3,7 @@ Contributors: niraj.shah
 Donate link:
 Tags: status, playstation, psn
 Requires at least: 2.7
-Tested up to: 4.0
+Tested up to: 4.2
 Stable tag: 0.3
 
 Widget that shows the status of the PlayStation Network on your blog for your chosen region.
